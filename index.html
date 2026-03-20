@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Kumar - Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@500;600;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- BACKGROUND -->
+    <div class="hero-tide-background" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2;"></div>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Himanshu Kumar</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#qualification" class="nav__link">Qualification</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="assets/resume.pdf" target="_blank" class="nav__link"
+                            style="font-weight: 700; color: #0C1252;">Resume <i class='bx bx-download'></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HOME SECTION -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://github.com/Friedrick2003" target="_blank" class="home__social-icon">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/himanshu-kumar-2280ab258/" target="_blank"
+                            class="home__social-icon">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-icon">
+                            <i class='bx bx-laptop'></i>
+                        </a>
+                    </div>
+
+                    <div class="home__data" style="position: relative; z-index: 10;">
+                        <h1 class="home__title text-gradient">Himanshu <br> Kumar <span class="hand">👋</span></h1>
+                        <h3 class="home__subtitle text-light">Full Stack Developer</h3>
+                        <p class="home__description text-light">
+                            A passionate Full Stack Developer with strong interest in building scalable web
+                            applications. Always eager to learn new technologies and solve real-world problems.
+                        </p>
+                        <a href="#contact" class="button">Say Hi <i class='bx bx-send'></i></a>
+
+                        <div class="home__scroll">
+                            <a href="#about" class="home__scroll-button">
+                                <i class='bx bx-mouse home__scroll-mouse text-light'></i>
+                                <span class="home__scroll-name text-light">Scroll Down &darr;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__img-wrapper">
+                        <div class="home__img">
+                            <!-- Placeholder photo representing Abhinav Gupta -->
+                            <img src="https://avatars.githubusercontent.com/u/141486256?v=4" alt="Himanshu's Photo" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="https://avatars.githubusercontent.com/u/141486256?v=4" alt="Himanshu Kumar" class="about__img"
+                    style="border-radius: 50%; width: 350px; height: 350px; object-fit: cover; border: 4px solid var(--container-color); box-shadow: 0 4px 12px rgba(12, 18, 82, 0.1);">
+
+                <div class="about__data">
+                    <div class="about__info grid">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">Open to work</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">8+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Hi, I’m Himanshu Kumar! I have worked on projects like Doctor Appointment System and E-commerce
+                        Website, focusing on clean code, performance, and user experience. Currently improving my skills
+                        in DSA, system design, and backend development. Feel free to explore my repositories and connect
+                        with me!
+                    </p>
+
+                    <a href="assets/resume.pdf" target="_blank" class="button">View Resume <i
+                            class='bx bx-file-blank'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+
+                <!-- Frontend -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-html5'></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxl-css3'></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxl-javascript'></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-bootstrap'></i>
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxl-git'></i>
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxl-react'></i>
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Express</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxl-nodejs'></i>
+                                <div>
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxl-typescript'></i>
+                                <div>
+                                    <h3 class="skills__name">Typescript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-mongodb'></i>
+                                <div>
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxl-postgresql'></i>
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bx-shield-quarter'></i>
+                                <div>
+                                    <h3 class="skills__name">Passport.js</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DSA -->
+                <div class="skills__content dsa-content">
+                    <h3 class="skills__title">Data Structures and Algorithm</h3>
+                    <div class="skills__box">
+                        <div class="skills__group"
+                            style="align-items: center; justify-items: center; display: flex; flex-direction: column; gap: 1.5rem;">
+                            <div class="skills__data">
+                                <i class='bx bx-code-alt'></i>
+                                <div>
+                                    <h3 class="skills__name">C++</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bx-code'></i>
+                                <div>
+                                    <h3 class="skills__name">C</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+
+            <div class="projects__container container grid" style="grid-template-columns: repeat(2, 1fr);">
+                <!-- Project 1 -->
+                <div class="projects__card">
+                    <i class='bx bx-cart projects__icon'></i>
+                    <h3 class="projects__title">Electronics Shop<br>E-Commerce</h3>
+                    <a href="https://github.com/Friedrick2003/electronics-shop" target="_blank"
+                        class="projects__button">
+                        View Repo <i class='bx bx-right-arrow-alt projects__button-icon'></i>
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="projects__card">
+                    <i class='bx bx-shield-quarter projects__icon'></i>
+                    <h3 class="projects__title">Vulnerability<br>Scanner</h3>
+                    <a href="https://github.com/Friedrick2003/vulnuerability-scanner" target="_blank"
+                        class="projects__button">
+                        View Repo <i class='bx bx-right-arrow-alt projects__button-icon'></i>
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="projects__card">
+                    <i class='bx bx-building-house projects__icon'></i>
+                    <h3 class="projects__title">Nexus Web<br>Banking System</h3>
+                    <a href="https://github.com/Friedrick2003/nexus-web" target="_blank" class="projects__button">
+                        View Repo <i class='bx bx-right-arrow-alt projects__button-icon'></i>
+                    </a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="projects__card">
+                    <i class='bx bx-plus-medical projects__icon'></i>
+                    <h3 class="projects__title">Doctor Appointment<br>System</h3>
+                    <a href="https://github.com/Friedrick2003" target="_blank" class="projects__button">
+                        View Repo <i class='bx bx-right-arrow-alt projects__button-icon'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUALIFICATION SECTION -->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My Personal Journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button qualification__active" data-target="#education">
+                        <i class='bx bxs-graduation qualification__icon'></i> Education
+                    </div>
+                    <div class="qualification__button" data-target="#experience">
+                        <i class='bx bx-briefcase-alt qualification__icon'></i> Experience
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content qualification__active" data-content id="education">
+
+                        <!-- Qual 1 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">B.Tech in Computer Science and Engineering</h3>
+                                <span class="qualification__subtitle">Indian Institute of Information Technology
+                                    Bhagalpur (IIITBH)</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bx-calendar'></i> 2022 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Qual 2 -->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Class 12th</h3>
+                                <span class="qualification__subtitle">Govt High School Kohhanta Patori</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bx-calendar'></i> 2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Qual 3 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Class 10th</h3>
+                                <span class="qualification__subtitle">Govt High School Kohhanta Patori</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bx-calendar'></i> 2019
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- no line -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Feel free to reach out anytime.</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__content contact__split">
+                    <div class="contact__info-panel">
+                        <div class="contact__item">
+                            <div class="contact__icon-circle">
+                                <i class='bx bx-map'></i>
+                            </div>
+                            <div class="contact__item-copy">
+                                <h3 class="contact__item-title">Address</h3>
+                                <p>Bihar, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__item">
+                            <div class="contact__icon-circle">
+                                <i class='bx bx-phone'></i>
+                            </div>
+                            <div class="contact__item-copy">
+                                <h3 class="contact__item-title">Phone</h3>
+                                <p>+91 6206895260</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__item">
+                            <div class="contact__icon-circle">
+                                <i class='bx bx-envelope'></i>
+                            </div>
+                            <div class="contact__item-copy">
+                                <h3 class="contact__item-title">Email</h3>
+                                <p>himanshukumar151821@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__form-panel">
+                        <h3 class="contact__form-title">Send Message</h3>
+                        <form id="contactForm" class="contact__form" novalidate>
+                            <div class="contact__field">
+                                <input id="cName" type="text" placeholder="Full Name" required>
+                            </div>
+                            <div class="contact__field">
+                                <input id="cEmail" type="email" placeholder="Email" required>
+                            </div>
+                            <div class="contact__field contact__field--textarea">
+                                <textarea id="cMessage" rows="3" placeholder="Type your message..." required></textarea>
+                            </div>
+                            <button type="submit" class="contact__send btn-send">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!-- Main JS (if any) -->
+    <script src="js/main.js"></script>
+    <!-- Premium Water Ripple Background -->
+    <script src="js/water-ripple.js"></script>
+</body>
+
+</html>
